@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Задание 2</title>
+    </head>
+    <body>
+        <nav class="navbar1 navbar-light">
+            <div class="container-fluid">
+                <button class="hamburger hamburger-border--green" id="mobile-menu-btn">
+                    <div class="btn__hamb">
+                        <div></div>
+                    </div>
+                </button>
+                Текст
+            </div>
+          </nav>
+          <div>
+            <hr class="hr-horizontal-gradient-top">
+            <hr class="bold-hr">
+          </div>
+<h1>Cлайдер</h1>
+
+<div class="carousel">
+    <div class="carousel__nav">
+     <span id="moveLeft" class="carousel__arrowleft">
+          <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+  </svg>
+      </span>
+      <span id="moveRight" class="carousel_arrowright">
+        <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
+    <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+  </svg>    
+      </span>
+    </div>
+    <div class="carousel-item carousel-item--1">
+      <div class="carousel-item__image"><img  class="img1" src="images/sl1.png"></div>
+      <div class="carousel-item__info">
+        <div class="carousel-item__container">
+        <h1 class="carousel-item__title">Текст 1</h1>
+          </div>
+      </div>
+    </div>
+    <div class="carousel-item carousel-item--2">
+      <div class="carousel-item__image"><img class="img2" src="images/sl2.png"></div>
+      <div class="carousel-item__info">
+        <div class="carousel-item__container">
+        <h1 class="carousel-item__title">Текст 2</h1>
+          </div>
+      </div>
+    </div>
+      <div class="carousel-item carousel-item--3">
+      <div class="carousel-item__image"><img class="img3" src="images/sl3.png"></div>
+      <div class="carousel-item__info">
+        <div class="carousel-item__container">
+        <h1 class="carousel-item__title">Текст 3</h1>
+          </div>
+      </div>
+    </div>
+    
+     <div class="carousel-item carousel-item--4">
+      <div class="carousel-item__image"><img class="img4" src="images/sl4.png"></div>
+      <div class="carousel-item__info">
+        <div class="carousel-item__container">
+        <h1 class="carousel-item__title">Текст 4</h1>
+          </div>
+      </div>
+    </div>
+    
+
+    
+  </div>
+
+        <button disabled class="btn-next" id="btn-next">Продолжить</button>
+        <hr class="hr-horizontal-gradient-bottom">
+        
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+          <script src="js/slaider.js"></script>
+          <script src="js/button.js"></script>
+    </body>
+</html>
